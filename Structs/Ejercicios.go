@@ -10,4 +10,4 @@ type Ejercicio struct {
 	Etiquetas        *[]Etiqueta
 }
 
-func (e *Ejercicio) newEjercicio(string titulo)
+func (e *Ejercicio) NewEjercicio(string titulo)

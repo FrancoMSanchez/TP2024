@@ -53,20 +53,14 @@ func newEtiqueta(nombre string) *Etiqueta {
 	return &Etiqueta{nombre}
 }
 func newEjercicio() *Ejercicio {
-
 	return &Ejercicio{}
-
 }
 func newUsuario() *Usuario {
-
 	return &Usuario{}
-
 }
 
 //Miscellaneous:
 
 func clearScreen() {
-
 	fmt.Print("\033[H\033[2J")
-
 }
