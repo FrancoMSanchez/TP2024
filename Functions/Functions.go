@@ -1,8 +1,10 @@
-package main
+package Functions
 
 import (
 	"errors"
 	"fmt"
+
+	st "github.com/untref-ayp2/TP-2024-el_barto/Structs"
 )
 
 // Iniciar e importar variables y listas necesarias para el funcionamiento del sistema
@@ -31,33 +33,33 @@ func iniciar() error {
 }
 
 // Obtencion de listados guardados en csv
-func ObtenerEjercicios() []Ejercicio {
+func ObtenerEjercicios() []st.Ejercicio {
 	return nil
 }
-func ObtenerEtiquetas() []Etiqueta {
+func ObtenerEtiquetas() []st.Etiqueta {
 	return nil
 }
-func ObtenerRutinas() []Rutina {
+func ObtenerRutinas() []st.Rutina {
 	return nil
 }
-func ObtenerUsuario() []Usuario {
+func ObtenerUsuario() []st.Usuario {
 	return nil
 }
 
 //Creacion de nuevas variables
 
-func newPuntos() *Puntos {
-	return &Puntos{0, 0, 0, 0}
+/*func newPuntos() *st.Puntos {
+	return &st.Puntos{0, 0, 0, 0}
 }
 func newEtiqueta(nombre string) *Etiqueta {
-	return &Etiqueta{nombre}
+	return &st.Etiqueta{nombre}
 }
 func newEjercicio() *Ejercicio {
 	return &Ejercicio{}
 }
 func newUsuario() *Usuario {
 	return &Usuario{}
-}
+}*/
 
 //Miscellaneous:
 
